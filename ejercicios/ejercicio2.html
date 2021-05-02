@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lara Galaz">
+    <title>ejercicio css</title>
+    <!-- <link rel="stylesheet" href="estilos.css"> -->
+    <style>
+        .container {
+            justify-content: space-around;
+            padding: 0 20%;
+        }
+
+        /*un fondo en comun en header y footer*/
+        .fondo_gris {
+            background-color: grey;
+        }
+
+        /*menu de navegacion*/
+        #navbar {
+            justify-content: flex-end;
+
+        }
+
+        #navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #navbar li {
+            float: right;
+        }
+
+        #navbar li a {
+            display: block;
+            text-align: center;
+            padding: 1em 1em;
+        }
+
+        /*main*/
+        #bloque1,
+        #bloque2 {
+            padding: 2em 0;
+        }
+
+        #bloque1 .logo_html img,
+        .logo_css img {
+            height: 100px;
+            width: auto;
+        }
+
+        /*footer*/
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
+
+        footer p {
+            line-height: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo_codo">
+            <img src="https://aulavirtual.codoacodo.com.ar/theme/codoacodo35/pix/bac-header-1.png"
+                alt="logo codo a codo y bsas">
+        </div>
+        <div class="fondo_gris" id="navbar">
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">quienes</a></li>
+                <li><a href="#">galeria</a></li>
+                <li><a href="#">contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="bloque1">
+                <div class="logo_html">
+                    <img src="https://cdn.icon-icons.com/icons2/1488/PNG/512/5352-html5_102567.png" alt="logo html5">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros urna, interdum id lorem vel,
+                    faucibus convallis mi.
+                    Nam justo est, vehicula in cursus sed, feugiat in augue. Ut id enim posuere, mollis nisi id,
+                    scelerisque quam. Nam feugiat,
+                </p>
+            </div>
+            <div id="bloque2">
+                <div class="logo_css">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="logo css">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eros urna, interdum id lorem vel,
+                    faucibus convallis mi.
+                    Nam justo est, vehicula in cursus sed, feugiat in augue. Ut id enim posuere, mollis nisi id,
+                    scelerisque quam. Nam feugiat,
+                </p>
+            </div>
+        </div>
+
+
+    </main>
+    <footer class="fondo_gris">
+        <div>
+            <p>Diseñado por Lara Galaz | galazlv.nqn@gmail.com | tel299999999</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

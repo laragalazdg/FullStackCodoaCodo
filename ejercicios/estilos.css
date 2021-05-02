@@ -1,0 +1,51 @@
+.container{
+    justify-content: space-around;
+    padding:0 20%;
+}
+/*un fondo en comun en header y footer*/
+.fondo_gris {
+    background-color: grey;
+  }
+
+/*menu de navegacion*/
+#navbar {
+  justify-content: flex-end;
+
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#navbar li{
+    float: right;
+}
+
+#navbar li a {
+    display: block;
+    text-align: center;
+    padding: 1em 1em;    
+}
+/*main*/
+#bloque1, #bloque2{
+    padding: 2em 0;
+}
+
+#bloque1 .logo_html img, .logo_css img{
+    height: 100px;
+    width: auto;
+} 
+
+/*footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+footer p{
+    line-height: normal;
+}

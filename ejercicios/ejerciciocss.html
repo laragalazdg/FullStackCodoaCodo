@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lara Galaz">
+    <title>ejemplo1</title>
+    <!--ESTILOS-->
+    <style>
+        .contenedor{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 15px;
+            color: yellow;
+        }
+        div>div{            
+           height: 400px;
+           background-color: red;
+           font-size: 50px;
+        }
+        .negro{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="contenedor">
+            <div class="bloque">
+             <span>uno</span>
+            </div>
+            <div class="bloque negro">
+               <span>dos</span>
+            </div>
+            <div class="bloque">
+               <span>tres</span>
+            </div>
+            <div class="bloque">
+                <span>cuatro</span>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
